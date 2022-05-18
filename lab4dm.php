@@ -2,10 +2,22 @@
 <html lang = "en">
 <head>
     <title>Лабораторная работа №4</title>
-    
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body bgcolor="white">
-
+<tr>
+<div class="panel">
+        <a href="index.php"><font size=5>Главная</font></a></td>
+        <a href="info.php"><font size=5>О себе</font></a></td>
+        <a href="labs.php"><font size=5>Лабы по ДМ</font></a></td>
+        <a href="galery.php"><font size=5>Галерея</font></a></td>
+        <a href="contacts.php"><font size=5>Ссылки</font></a></td>
+        <div class="reg">
+            <a href="enter.php"><font size=5>Вход</font></a></td>
+            <a href="registration.php"><font size=5>Регистрация</font></a></td>
+        </div>
+</div>
+</tr>
 <h1>Лабораторная работа №4</h1>
 <form method="post">
     <textarea style = "width: 220px; height: 123px;" id="matrix" name = "matrix" placeholder=
